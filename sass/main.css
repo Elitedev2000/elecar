@@ -1,0 +1,78 @@
+*::after,
+*::before,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Exo", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  background-color: #0A0A0B;
+}
+header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+header .nav__logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+}
+header .nav__list {
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+}
+header .nav__list--item {
+  text-transform: uppercase;
+  list-style-type: none;
+}
+header .nav__list--item-link {
+  color: #fff;
+  text-decoration: none;
+}
+header .nav__list--item-link:hover {
+  color: silver;
+}
+header .nav__menu {
+  font-size: 32px;
+  color: #fff;
+  display: none;
+}
+
+/* -------------  HEADER SECTION END -----------*/
+@media only screen and (max-width: 768px) {
+  header .nav {
+    padding: 0 20px;
+  }
+  header .nav__list {
+    display: none;
+  }
+  header .nav__menu {
+    display: block;
+  }
+}
+@media only screen and (max-width: 375px) {
+  header .nav {
+    padding: 0 20px;
+  }
+  header .nav__list {
+    display: none;
+  }
+  header .nav__menu {
+    display: block;
+  }
+}/*# sourceMappingURL=main.css.map */
