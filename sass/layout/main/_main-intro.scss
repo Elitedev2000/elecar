@@ -3,12 +3,14 @@ main {
     background-color: $bg-color;
 
     .intro {
-        width: 40%;
+        // width: 40%;
         margin: 0 auto;
 
         .entry {
             display: flex;
             flex-direction: column;
+            width: 100%;
+            margin: 0 auto;
 
             &__h1 {
                 font-size: 36px;
@@ -27,6 +29,7 @@ main {
             &__title {
                 display: flex;
                 justify-content: center;
+
                 i {
                     font-size: 20px;
                     color: #4177DC;
@@ -44,6 +47,33 @@ main {
                 display: flex;
                 justify-content: center;
                 padding: 48px 0 40px;
+            }
+
+            &__info {
+                color: #fff;
+                display: flex;
+                width: 410px;
+                margin: 0 auto;
+                justify-content: space-between;
+                text-align: center;
+
+                &--degree {
+                    i {
+                        padding-bottom: 16px;
+                    }
+                }
+
+                &--distance {
+                    i {
+                        padding-top: 16px;
+                    }
+                }
+
+                &--battery {
+                    i {
+                        padding-top: 16px;
+                    }
+                }
             }
         }
     }

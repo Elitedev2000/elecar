@@ -85,12 +85,13 @@ main {
   background-color: #0A0A0B;
 }
 main .intro {
-  width: 40%;
   margin: 0 auto;
 }
 main .intro .entry {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
 }
 main .intro .entry__h1 {
   font-size: 36px;
@@ -122,4 +123,21 @@ main .intro .entry__img {
   display: flex;
   justify-content: center;
   padding: 48px 0 40px;
+}
+main .intro .entry__info {
+  color: #fff;
+  display: flex;
+  width: 410px;
+  margin: 0 auto;
+  justify-content: space-between;
+  text-align: center;
+}
+main .intro .entry__info--degree i {
+  padding-bottom: 16px;
+}
+main .intro .entry__info--distance i {
+  padding-top: 16px;
+}
+main .intro .entry__info--battery i {
+  padding-top: 16px;
 }/*# sourceMappingURL=main.css.map */
