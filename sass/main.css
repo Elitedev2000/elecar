@@ -117,4 +117,9 @@ main .intro .entry__title--h3 {
   font-weight: 400;
   font-size: 16px;
   color: #BABEC4;
+}
+main .intro .entry__img {
+  display: flex;
+  justify-content: center;
+  padding: 48px 0 40px;
 }/*# sourceMappingURL=main.css.map */
