@@ -6,7 +6,7 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 70px;
+        height: 80px;
 
         &__logo {
             font-size: 16px;
@@ -33,14 +33,14 @@ header {
                     text-decoration: none;
 
                     &:hover {
-                        color: silver;
+                        color: #306AD9;
                     }
                 }
             }
         }
 
         &__menu {
-            font-size: 32px;
+            font-size: 20px;
             color: #fff;
             display: none;
         }
