@@ -2,35 +2,27 @@ header {
     width: 100%;
     background-color: #0A0A0B;
 
-
-
     .nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 70px;
 
-
         &__logo {
             font-size: 24px;
-            text-transform: uppercase;
+            text-transform: capitalize;
             color: #fff;
             text-decoration: none;
         }
 
         &__list {
-
             display: flex;
             width: 35%;
             justify-content: space-between;
 
-
-
-
             &--item {
-                text-transform: uppercase;
+                text-transform: capitalize;
                 list-style-type: none;
-
 
                 &-link {
                     color: #fff;
@@ -40,9 +32,7 @@ header {
                         color: silver;
                     }
                 }
-
             }
-
         }
 
         &__menu {
@@ -51,7 +41,6 @@ header {
             display: none;
         }
     }
-
 }
 
 /* -------------  HEADER SECTION END -----------*/
