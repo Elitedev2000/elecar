@@ -10,10 +10,16 @@ body {
   font-family: "Exo", sans-serif;
 }
 
-main .intro .entry__info--degree-h2 {
+main .intro .entry__info--battery-h2, main .intro .entry__info--distance-h2, main .intro .entry__info--degree-h2 {
   padding: 16px 0 6px;
   font-weight: 600;
   font-size: 24px;
+}
+
+main .intro .entry__info--battery-p, main .intro .entry__info--distance-p, main .intro .entry__info--degree-p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #888B91;
 }
 
 .container {
@@ -103,7 +109,7 @@ main .intro .entry__h1 {
   font-size: 36px;
   color: #fff;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 main .intro .entry__h2 {
   font-size: 24px;
