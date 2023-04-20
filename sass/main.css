@@ -79,4 +79,15 @@ header .nav__menu {
   header .nav__menu {
     display: block;
   }
+}
+main {
+  min-height: calc(100vh - 80px);
+}
+main .entry__h1 {
+  font-size: 36px;
+  color: #fff;
+}
+main .entry__h2 {
+  font-size: 24px;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
