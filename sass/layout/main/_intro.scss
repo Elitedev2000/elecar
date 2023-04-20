@@ -59,26 +59,64 @@ main {
 
                 &--degree {
                     &-h2 {
-                       @extend %infoHeading;
+                        @extend %infoHeading;
                     }
+
                     &-p {
                         @extend %infoParagraph;
                     }
                 }
+
                 &--distance {
                     &-h2 {
-                    @extend %infoHeading;
+                        @extend %infoHeading;
                     }
+
                     &-p {
                         @extend %infoParagraph;
                     }
                 }
+
                 &--battery {
                     &-h2 {
                         @extend %infoHeading;
                     }
+
                     &-p {
                         @extend %infoParagraph;
+                    }
+                }
+            }
+
+            &__btn {
+                display: flex;
+                justify-content: center;
+                margin-top: 55px;
+
+                &--circle {
+                    width: 90px;
+                    height: 90px;
+                    border: 2px solid #02DB8A;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    filter: drop-shadow(0px 0px 16px #02DB8A);
+
+                    &-min {
+                        width: 70px;
+                        height: 70px;
+                        border: 2px solid #099260;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        p {
+                            font-weight: 500;
+                            font-size: 14px;
+                            color: #FFFFFF;
+                        }
                     }
                 }
             }

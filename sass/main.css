@@ -20,6 +20,7 @@ main .intro .entry__info--battery-p, main .intro .entry__info--distance-p, main 
   font-size: 13px;
   font-weight: 400;
   color: #888B91;
+  text-transform: uppercase;
 }
 
 .container {
@@ -143,4 +144,33 @@ main .intro .entry__info {
   margin: 0 auto;
   justify-content: space-between;
   text-align: center;
+}
+main .intro .entry__btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+}
+main .intro .entry__btn--circle {
+  width: 90px;
+  height: 90px;
+  border: 2px solid #02DB8A;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0px 0px 16px #02DB8A);
+}
+main .intro .entry__btn--circle-min {
+  width: 70px;
+  height: 70px;
+  border: 2px solid #099260;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .intro .entry__btn--circle-min p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
