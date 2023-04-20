@@ -10,6 +10,12 @@ body {
   font-family: "Exo", sans-serif;
 }
 
+main .intro .entry__info--degree-h2 {
+  padding: 16px 0 6px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -131,13 +137,4 @@ main .intro .entry__info {
   margin: 0 auto;
   justify-content: space-between;
   text-align: center;
-}
-main .intro .entry__info--degree i {
-  padding-bottom: 16px;
-}
-main .intro .entry__info--distance i {
-  padding-top: 16px;
-}
-main .intro .entry__info--battery i {
-  padding-top: 16px;
 }/*# sourceMappingURL=main.css.map */
