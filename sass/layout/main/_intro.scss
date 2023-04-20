@@ -47,6 +47,7 @@ main {
                 display: flex;
                 justify-content: center;
                 padding: 48px 0 40px;
+                }
             }
 
             &__info {
@@ -92,7 +93,7 @@ main {
                 display: flex;
                 justify-content: center;
                 margin-top: 55px;
-
+                
                 &--circle {
                     width: 90px;
                     height: 90px;
@@ -102,7 +103,8 @@ main {
                     justify-content: center;
                     align-items: center;
                     filter: drop-shadow(0px 0px 16px #02DB8A);
-
+                    cursor: pointer;
+                    
                     &-min {
                         width: 70px;
                         height: 70px;

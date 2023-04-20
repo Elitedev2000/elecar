@@ -105,6 +105,7 @@ main .intro .entry {
   flex-direction: column;
   width: 100%;
   margin: 0 auto;
+  position: relative;
 }
 main .intro .entry__h1 {
   font-size: 36px;
@@ -137,6 +138,12 @@ main .intro .entry__img {
   justify-content: center;
   padding: 48px 0 40px;
 }
+main .intro .entry__img ::after {
+  content: " salom";
+  width: 100%;
+  position: absolute;
+  background-image: url(/img/header/shape1.png);
+}
 main .intro .entry__info {
   color: #fff;
   display: flex;
@@ -159,6 +166,7 @@ main .intro .entry__btn--circle {
   justify-content: center;
   align-items: center;
   filter: drop-shadow(0px 0px 16px #02DB8A);
+  cursor: pointer;
 }
 main .intro .entry__btn--circle-min {
   width: 70px;
