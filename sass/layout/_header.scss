@@ -87,3 +87,13 @@ header {
     }
 
 }
+
+// --- Media part
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        &__list {
+            display: none;
+        }
+    }
+}
