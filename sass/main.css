@@ -10,13 +10,13 @@ body {
   font-family: "Exo", sans-serif;
 }
 
-main .intro .entry__info--battery-h2, main .intro .entry__info--distance-h2, main .intro .entry__info--degree-h2 {
+main .intro__info--battery-h2, main .intro__info--distance-h2, main .intro__info--degree-h2 {
   padding: 16px 0 6px;
   font-weight: 600;
   font-size: 24px;
 }
 
-main .intro .entry__info--battery-p, main .intro .entry__info--distance-p, main .intro .entry__info--degree-p {
+main .intro__info--battery-p, main .intro__info--distance-p, main .intro__info--degree-p {
   font-size: 13px;
   font-weight: 400;
   color: #888B91;
@@ -93,19 +93,20 @@ header .nav__menu {
     display: block;
   }
 }
+@media only screen and (max-width: 768px) {
+  .nav__list {
+    display: none;
+  }
+}
 main {
   min-height: calc(100vh - 80px);
   background-color: #0A0A0B;
-}
-main .intro {
-  margin: 0 auto;
 }
 main .intro .entry {
   display: flex;
   flex-direction: column;
   width: 100%;
   margin: 0 auto;
-  position: relative;
 }
 main .intro .entry__h1 {
   font-size: 36px;
@@ -138,13 +139,7 @@ main .intro .entry__img {
   justify-content: center;
   padding: 48px 0 40px;
 }
-main .intro .entry__img ::after {
-  content: " salom";
-  width: 100%;
-  position: absolute;
-  background-image: url(/img/header/shape1.png);
-}
-main .intro .entry__info {
+main .intro__info {
   color: #fff;
   display: flex;
   width: 410px;
@@ -152,12 +147,12 @@ main .intro .entry__info {
   justify-content: space-between;
   text-align: center;
 }
-main .intro .entry__btn {
+main .intro__btn {
   display: flex;
   justify-content: center;
   margin-top: 55px;
 }
-main .intro .entry__btn--circle {
+main .intro__btn--circle {
   width: 90px;
   height: 90px;
   border: 2px solid #02DB8A;
@@ -168,7 +163,7 @@ main .intro .entry__btn--circle {
   filter: drop-shadow(0px 0px 16px #02DB8A);
   cursor: pointer;
 }
-main .intro .entry__btn--circle-min {
+main .intro__btn--circle-min {
   width: 70px;
   height: 70px;
   border: 2px solid #099260;
@@ -177,8 +172,27 @@ main .intro .entry__btn--circle-min {
   align-items: center;
   justify-content: center;
 }
-main .intro .entry__btn--circle-min p {
+main .intro__btn--circle-min p {
   font-weight: 500;
   font-size: 14px;
   color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px) {
+  .intro .entry__h1 {
+    font-size: 24px;
+  }
+  .intro .entry__h2 {
+    font-size: 16px;
+  }
+  .intro .entry__title {
+    font-size: 13px;
+  }
+}
+.future {
+  width: 100%;
+  height: 30%;
+}
+.future .tech {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
