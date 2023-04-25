@@ -1,3 +1,106 @@
+header {
+    width: 100%;
+    background-color: $bg-color;
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+
+        &__logo {
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: capitalize;
+            color: #fff;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        &__list {
+            display: flex;
+            width: 35%;
+            justify-content: space-between;
+
+            &--item {
+                text-transform: capitalize;
+                list-style-type: none;
+
+                &-link {
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #fff;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: #306AD9;
+                    }
+                }
+            }
+        }
+
+        &__menu {
+            font-size: 20px;
+            color: #fff;
+            display: none;
+        }
+    }
+}
+
+/* -------------  HEADER SECTION END -----------*/
+
+
+@media only screen and (max-width: 768px) {
+
+    header {
+
+        .nav {
+            padding: 0 20px;
+
+            &__list {
+                display: none;
+            }
+
+            &__menu {
+                display: block;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    header {
+
+        .nav {
+            padding: 0 20px;
+
+            &__list {
+                display: none;
+            }
+
+            &__menu {
+                display: block;
+            }
+        }
+    }
+
+}
+
+// --- Media part
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        &__list {
+            display: none;
+        }
+    }
+}
+
+
+// ------------- Main part
+
 main {
     min-height: calc(100vh - 80px);
     background-color: $bg-color;
