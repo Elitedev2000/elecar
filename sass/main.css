@@ -155,7 +155,7 @@ main .intro__btn {
 main .intro__btn--circle {
   width: 90px;
   height: 90px;
-  border: 2px solid #02DB8A;
+  border: 2px solid #ce5b14;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -176,23 +176,4 @@ main .intro__btn--circle-min p {
   font-weight: 500;
   font-size: 14px;
   color: #FFFFFF;
-}
-
-@media only screen and (max-width: 768px) {
-  .intro .entry__h1 {
-    font-size: 24px;
-  }
-  .intro .entry__h2 {
-    font-size: 16px;
-  }
-  .intro .entry__title {
-    font-size: 13px;
-  }
-}
-.future {
-  width: 100%;
-  height: 30%;
-}
-.future .tech {
-  display: flex;
 }/*# sourceMappingURL=main.css.map */
